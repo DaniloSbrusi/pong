@@ -10,4 +10,6 @@ Para jogar, abra o arquivo **jogo.dig**:
 - Botão S inicia ou reinicia o jogo
 - Botões A e D movem a barra
 
-Objetivo do jogo: impedir que a bolinha toque a lateral esquerda
+Objetivo do jogo: impedir que a bolinha toque a lateral direita
+
+![Imagem do jogo](/pong.png)
