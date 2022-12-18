@@ -1,15 +1,35 @@
 # Jogo do Pong
 ~na verdade é só metade de um jogo pong~
 
-Desenvolvido como projeto final da disciplina de Sistemas Digitais Experimental
+Desenvolvido como projeto final da disciplina de Sistemas Digitais Experimental no IFC Luzerna
 
-* Software: [Digital by hneemann](https://github.com/hneemann/Digital)
+Software: [Digital by Hneemann](https://github.com/hneemann/Digital)
 
-Para jogar, abra o arquivo **jogo.dig**:
+## Instruções
 
-- Botão S inicia ou reinicia o jogo
-- Botões A e D movem a barra
+- Abra o arquivo **jogo.dig**
+- O botão S inicia ou reinicia o jogo
+- Os botões A e D movem a barra
+- Objetivo do jogo: impedir que a bolinha toque a lateral direita
 
-Objetivo do jogo: impedir que a bolinha toque a lateral direita
+*Os botões estão mapeados para o teclado*
 
+---
 ![Imagem do jogo](/pong.png)
+--- 
+
+Foram utilizados os seguintes componentes que são exportáveis, pelo software, em VHDL:
+
+- Botões
+- Sinal de clock (16 Hz)
+- Portas lógicas (NOT, OR, AND)
+- Flip-flops tipo D (síncrono e assíncrono)
+- Flip-flops tipo K
+- Contadores (74193 e genérico)
+- Codificador
+- Decodificador
+- Multiplexador
+- Comparador
+- RAM
+- ROM
+- Matriz de LEDs
