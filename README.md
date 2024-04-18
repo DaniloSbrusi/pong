@@ -1,5 +1,4 @@
-# Jogo do Pong
-~na verdade é só metade de um jogo pong~
+# Jogo Pong
 
 Desenvolvido como projeto final da disciplina de Sistemas Digitais Experimental no IFC Luzerna
 
@@ -10,7 +9,8 @@ Software: [Digital by Hneemann](https://github.com/hneemann/Digital)
 - Abra o arquivo **jogo.dig**
 - O botão S inicia ou reinicia o jogo
 - Os botões A e D movem a barra
-- Objetivo do jogo: impedir que a bolinha toque a lateral direita
+
+*Objetivo do jogo: impedir que a bolinha toque a lateral direita do display*
 
 *Os botões estão mapeados para o teclado*
 
